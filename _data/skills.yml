@@ -1,9 +1,5 @@
-- name: Researches Keywords
-  keywords:
-      - Data mining
-      - Machine Learning 
-
-- name: Software Keywords
-  keywords:
-      - Java
-      - Python
+keywords:
+   - Data mining
+   - Machine Learning 
+   - Java
+   - Python
