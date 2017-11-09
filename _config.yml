@@ -79,5 +79,5 @@ comments_provider: gitalk
 gitalk:
     owner: sunjunee
     repo: blog-comments
-    clientID: a6eff85f8841fee3f95f
-    clientSecret: 3aa2593d7a58f3f24cb2120ad09955003740c279
+    clientID: d5d737a0f704d4eac5a3
+    clientSecret: f47d9229e2684a5ed5c5aeb69841668baeaca12b
