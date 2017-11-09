@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://sunjunee.github.io
+url: https://sunjunee.github.io
 date_format: "ordinal"
 title: sun
 subtitle: "Coding"
@@ -17,7 +17,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: Sun Jun
 organization: UCAS
-github_username: mzlogin
+github_username: sunjunee
 location: Beijing, China
 email: sunjunee@qq.com
 
@@ -77,7 +77,7 @@ repository: mzlogin/mzlogin.github.io
 comments_provider: gitalk
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: sunjunee
     repo: blog-comments
     clientID: a6eff85f8841fee3f95f
     clientSecret: 3aa2593d7a58f3f24cb2120ad09955003740c279
