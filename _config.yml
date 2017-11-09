@@ -5,7 +5,7 @@ baseurl:
 url: https://sunjunee.github.io
 date_format: "ordinal"
 title: sun
-subtitle: "Coding"
+subtitle: "孙俊的个人博客"
 description: "孙俊的个人博客"
 keywords: sun
 timezone: Asia/Beijing
@@ -15,8 +15,8 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Sun Jun
-organization: UCAS
+author: 孙俊
+organization: 中国科学院大学
 github_username: sunjunee
 location: Beijing, China
 email: sunjunee@qq.com
