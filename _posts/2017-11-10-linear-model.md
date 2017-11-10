@@ -1,4 +1,10 @@
-
+---
+layout: post
+title: 广义线性模型
+categories: [机器学习]
+description: 广义线性模型
+keywords: 机器学习, 线性模型, Logistic回归, 岭回归, Lasso回归
+---
 所谓广义线性模型，如西瓜书所说，就是形式上是线性的，但是呢，实际上不一定是线性的方程。
 一般的，线性模型是：
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=\hat{y}(w,x)=w^{T}X%2Bb" style="border:none;" />
@@ -58,7 +64,7 @@ reg.coef_
 ```python
 from sklearn import linear_model
 reg = linear_model.Ridge (alpha = .5)
-reg.fit ([[0, 0], [0, 0], [1, 1]], [0, .1, 1]) 
+reg.fit ([[0, 0], [0, 0], [1, 1]], [0, .1, 1])
 
 print("coef_:", reg.coef_)
 
@@ -67,7 +73,7 @@ print("intercept_:", reg.intercept_)
 
     coef_: [ 0.34545455  0.34545455]
     intercept_: 0.136363636364
-    
+
 
 ### 1.1.3 拉索（Lasso）回归
 
