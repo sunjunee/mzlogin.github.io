@@ -50,7 +50,7 @@ keywords: 数据挖掘, 实习
 
 因为没有一个标准来对这些岗位进行分类，所以难免存在一些类别的交叉，但是从上面的结果来看，开发（程序员）必须是互联网的主流，然后是产品、测试、维护之类的岗位。具体细分开发岗位，可以看到前端的需求量是最大的，其次是算法、web、数据挖掘、数据库、机器学习、计算机视觉、游戏、网络、安卓、自然语言、ios、后台。总结起来就是，大部分人都去写网页、写算法了......
 
-* **4.学校学历专业**
+### **4.学校学历专业**
 
 <img src="http://blog-1255541504.file.myqcloud.com/_post/internshipAnalysis-6.png" style="border:none;width: 500.0px;"/>
 
@@ -64,14 +64,14 @@ keywords: 数据挖掘, 实习
 
 那对于学生年级的要求呢，本科生普遍要求大三、大四，研究生则是研一、研二，这反映了招聘的公司，实际上是想招聘校招的储备力量。
 
-* **5.编程语言要求**
+### **5.编程语言要求**
 
 <img src="http://blog-1255541504.file.myqcloud.com/_post/internshipAnalysis-9.png" style="border:none;width: 500.0px;"/>
 
 从前面的岗位需求中，前端岗位需求旺盛，就不奇怪SQL、HTML、CSS、JavaScript这些语言的要求数排名靠前了。传统的Java、C++、Python、C、C#这五大金刚，除去前端和数据库语言之后，基本占据了主要地位。所以有时间的话，学一学前端还有数据库吧，毕竟容易找工作，Java、C++二选一，python和c简单，必会。
 
 
-* **6.工具要求**
+### **6.工具要求**
 
 <img src="http://blog-1255541504.file.myqcloud.com/_post/internshipAnalysis-10.png" style="border:none;width: 500.0px;"/>
 
@@ -79,7 +79,7 @@ keywords: 数据挖掘, 实习
 
 对于工具这一类，具体包括编程工具、知识、框架之类的关键词，上面是要求最后的工具排行，基本所有的岗位都要求会使用Linux环境，office不知道是怎么乱入的，数据结构、操作系统、计算机网络这些基础知识需要了解，然后是脚本语言/shell，还有版本控制工具Git/Github的使用。
 
-* **7.个人品质要求**
+### **7.个人品质要求**
 
 <img src="http://blog-1255541504.file.myqcloud.com/_post/internshipAnalysis-11.png" style="border:none;width: 500.0px;"/>
 
