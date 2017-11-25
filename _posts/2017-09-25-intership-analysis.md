@@ -20,7 +20,7 @@ keywords: 数据挖掘, 实习
 * **对个人品质的要求**
 
 
-爬虫的代码、原始数据，以及一些描述，放在了个人的Github上，欢迎使用和交流。地址：https://github.com/sunjunee/internshipAnalysis
+爬虫的代码、原始数据，以及一些描述，放在了个人的Github上，欢迎使用和交流。地址：<a href = "https://github.com/sunjunee/internshipAnalysis">https://github.com/sunjunee/internshipAnalysis</a>
 
 对数据进行分析，使用的主要是mysql和python，可视化用的excel。
 
