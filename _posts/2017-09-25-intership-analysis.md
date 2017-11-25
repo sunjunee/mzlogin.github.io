@@ -25,7 +25,7 @@ keywords: 数据挖掘, 实习
 对数据进行分析，使用的主要是mysql和python，可视化用的excel。
 
 * 不同城市的岗位数、平均日薪资
-
+<img src="http://blog-1255541504.file.myqcloud.com/_post/internshipAnalysis-1.png" style="border:none;width: 500.0px;"/>
 
 我们选取了实习岗位最多的十大城市，可以看到提供实习岗位数目最多的还是北上广深四大城市，然而北京的实习数量，比上海广州深圳的总和还要多。作为二线城市代表的成都、杭州也有较多的实习岗位。
 
