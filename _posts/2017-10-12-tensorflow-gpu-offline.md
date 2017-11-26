@@ -49,51 +49,17 @@ keywords: 机器学习, 深度学习, tensorflow, gpu
 
 为了方便安装，这里直接安装Anaconda，具体安装的版本是Anaconda3 4.2.0，官网可能找不到下载链接，但是可以通过下面镜像来下载安装：
 
-<a href="http://mirrors.ustc.edu.cn/anaconda/archive/Anaconda3-4.2.0-Windows-x86_64.exe">Anaconda3-4.2.0-Windows-x86_64.exe</a>
 
-然后需要安装tensorflow gpu版的依赖环境，除了anaconda带了的python包，还有一些需要手动安装的，版本和下载链接都在下面，挨个下载，然后用pip安装即可：
+| 依赖 | 使用版本 | 下载 |
+| - | :-: | -: |
+| protobuf >= 3.2.0 | protobuf-3.2.0.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/protobuf/">下载</a> |
+| werkzeug >= 0.11.10 | Werkzeug-0.11.11.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/werkzeug/">下载</a> |
+| html5lib = 0.9999999 | html5lib-0.9999999.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/html5lib/">下载</a> |
+| setuptools_scm = 1.2.0 | setuptools_scm-1.2.0-py2.py3-none-any.whl | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/setuptools-scm/">下载</a> |
+| backports.weakref == 1.0rc1 | 1.0rc1 | <a href = "https://github.com/pjdelport/backports.weakref/archive/v1.0rc1.tar.gz">下载</a> |
+| bleach == 1.5.0 | bleach-1.5.0.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/bleach/">下载</a> |
+| Markdown | Markdown-2.2.0.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/markdown/">下载</a> |
 
-<table>
-  <tr>
-    <th width=30% >依赖</th>
-    <th width=40%>使用版本</th>
-    <th width="10%">下载</th>
-  </tr>
-  <tr>
-    <td > protobuf >= 3.2.0 </td>
-    <td> protobuf-3.2.0.tar.gz  </td>
-    <td> <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/protobuf/">下载</a> </td>
-  </tr>
-  <tr>
-    <td> werkzeug >= 0.11.10 </td>
-    <td> Werkzeug-0.11.11.tar.gz </td>
-    <td> <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/werkzeug/">下载</a> </td>
-  <tr>
-    <td> html5lib = 0.9999999 </td>
-    <td> html5lib-0.9999999.tar.gz </td>
-    <td> <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/html5lib/">下载</a> </td>
-  </tr>
-  <tr>
-    <td> setuptools_scm = 1.2.0 </td>
-    <td> setuptools_scm-1.2.0-py2.py3-none-any.whl </td>
-    <td> <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/setuptools-scm/">下载</a> </td>
-  </tr>
-  <tr>
-    <td> backports.weakref == 1.0rc1 </td>
-    <td> 1.0rc1 </td>
-    <td> <a href = "https://github.com/pjdelport/backports.weakref/archive/v1.0rc1.tar.gz">下载</a> </td>
-  </tr>
-  <tr>
-    <td> bleach == 1.5.0 </td>
-    <td> bleach-1.5.0.tar.gz </td>
-    <td> <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/bleach/">下载</a> </td>
-  </tr>
-  <tr>
-    <td> Markdown </td>
-    <td> Markdown-2.2.0.tar.gz </td>
-    <td> <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/markdown/">下载</a> </td>
-  </tr>
-</table>
 
 ### 4. tensorflow安装
 
