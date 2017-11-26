@@ -49,6 +49,9 @@ keywords: 机器学习, 深度学习, tensorflow, gpu
 
 为了方便安装，这里直接安装Anaconda，具体安装的版本是Anaconda3 4.2.0，官网可能找不到下载链接，但是可以通过下面镜像来下载安装：
 
+<a href="http://mirrors.ustc.edu.cn/anaconda/archive/Anaconda3-4.2.0-Windows-x86_64.exe">Anaconda3-4.2.0-Windows-x86_64.exe</a>
+
+然后需要安装tensorflow gpu版的依赖环境，除了anaconda带了的python包，还有一些需要手动安装的，版本和下载链接都在下面，挨个下载，然后用pip安装即可：
 
 | 依赖 | 使用版本 | 下载 |
 | - | :-: | -: |
