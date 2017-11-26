@@ -8,6 +8,7 @@ keywords: 机器学习, 深度学习, tensorflow, gpu
 
 <h2 align = "center">Windows下tensorflow gpu版的离线安装(cuda 8.0 + cudnn 5.1 + tf 1.2)</h2>
 
+<br/>
 开发用的电脑，因为各种原因不能连网，最近电脑加了显卡，试着装了下GPU版的tensorflow，中间遇到了一些坑，这里总结一下。
 
 下面具体介绍一下Windows下tensorflow gpu版的离线安装过程。
@@ -52,15 +53,57 @@ keywords: 机器学习, 深度学习, tensorflow, gpu
 
 然后需要安装tensorflow gpu版的依赖环境，除了anaconda带了的python包，还有一些需要手动安装的，版本和下载链接都在下面，挨个下载，然后用pip安装即可：
 
+<table>
+  <tr>
+    <th width=30% >依赖</th>
+    <th width=40%>使用版本</th>
+    <th width="10%">下载</th>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee> protobuf >= 3.2.0 </td>
+    <td> protobuf-3.2.0.tar.gz  </td>
+    <td> <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/protobuf/">下载</a> </td>
+  </tr>
+  <tr>
+    <td> werkzeug >= 0.11.10 </td>
+    <td> Werkzeug-0.11.11.tar.gz </td>
+    <td> <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/werkzeug/">下载</a> </td>
+  <tr>
+    <td> html5lib = 0.9999999 </td>
+    <td> html5lib-0.9999999.tar.gz </td>
+    <td> <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/html5lib/">下载</a> </td>
+  </tr>
+  <tr>
+    <td> setuptools_scm = 1.2.0 </td>
+    <td> setuptools_scm-1.2.0-py2.py3-none-any.whl </td>
+    <td> <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/setuptools-scm/">下载</a> </td>
+  </tr>
+  <tr>
+    <td> backports.weakref == 1.0rc1 </td>
+    <td> 1.0rc1 </td>
+    <td> <a href = "https://github.com/pjdelport/backports.weakref/archive/v1.0rc1.tar.gz">下载</a> </td>
+  </tr>
+  <tr>
+    <td> bleach == 1.5.0 </td>
+    <td> bleach-1.5.0.tar.gz </td>
+    <td> <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/bleach/">下载</a> </td>
+  </tr>
+  <tr>
+    <td> Markdown </td>
+    <td> Markdown-2.2.0.tar.gz </td>
+    <td> <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/markdown/">下载</a> </td>
+  </tr>
+</table>
+
 | 依赖 | 使用版本 | 下载 |
 | - | :-: | -: |
-| protobuf >= 3.2.0|protobuf-3.2.0.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/protobuf/">下载</a> |
-| werkzeug >= 0.11.10|Werkzeug-0.11.11.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/werkzeug/">下载</a> |
-| html5lib = 0.9999999|html5lib-0.9999999.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/html5lib/">下载</a> |
-| setuptools_scm = 1.2.0|setuptools_scm-1.2.0-py2.py3-none-any.whl | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/setuptools-scm/">下载</a> |
+| protobuf >= 3.2.0 | protobuf-3.2.0.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/protobuf/">下载</a> |
+| werkzeug >= 0.11.10 | Werkzeug-0.11.11.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/werkzeug/">下载</a> |
+| html5lib = 0.9999999 | html5lib-0.9999999.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/html5lib/">下载</a> |
+| setuptools_scm = 1.2.0 | setuptools_scm-1.2.0-py2.py3-none-any.whl | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/setuptools-scm/">下载</a> |
 | backports.weakref == 1.0rc1 | 1.0rc1 | <a href = "https://github.com/pjdelport/backports.weakref/archive/v1.0rc1.tar.gz">下载</a> |
-| bleach == 1.5.0|bleach-1.5.0.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/bleach/">下载</a> |
-| Markdown|Markdown-2.2.0.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/markdown/">下载</a> |
+| bleach == 1.5.0 | bleach-1.5.0.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/bleach/">下载</a> |
+| Markdown | Markdown-2.2.0.tar.gz | <a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/markdown/">下载</a> |
 ### 4. tensorflow安装
 
 下载tensorflow 1.2.0 GPU版本:
