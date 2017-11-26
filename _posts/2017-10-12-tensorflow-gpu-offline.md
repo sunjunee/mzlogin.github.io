@@ -52,7 +52,7 @@ keywords: 机器学习, 深度学习, tensorflow, gpu
 然后需要安装tensorflow gpu版的依赖环境，除了anaconda带了的python包，还有一些需要手动安装的，版本和下载链接都在下面，挨个下载，然后用pip安装即可：
 
 |依赖|使用版本|下载|
-|-----|
+|--|--|--|
 |protobuf >= 3.2.0|protobuf-3.2.0.tar.gz|<a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/protobuf/">下载</a>|
 |werkzeug >= 0.11.10|Werkzeug-0.11.11.tar.gz|<a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/werkzeug/">下载</a>|
 |html5lib = 0.9999999|html5lib-0.9999999.tar.gz|<a href = "https://mirrors.ustc.edu.cn/pypi/web/simple/html5lib/">下载</a>|
