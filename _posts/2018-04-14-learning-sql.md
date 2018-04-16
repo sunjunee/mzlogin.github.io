@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 学习sql
+title: 学习sql Part 1
 categories: [数据库]
-description: 学习sql，总结sql的基础知识，来源《sql必知必会》
+description: 学习sql Part 1，总结sql的基础知识，来源《sql必知必会》
 keywords: 数据库, sql
 ---
 
 
-<h2 align = "center"> 学习sql </h2>
+<h2 align = "center"> 学习sql Part 1 </h2>
 
 <br/>
 
@@ -360,8 +360,6 @@ SELECT * FROM T WHERE a like '%HAHA'
 
 用法与%类似，只是它每次只匹配一个字符，一个不多一个不少。%可以匹配0到任意个字符。
 
-#### 6.1.3 方括号([])
+#### 6.1.3 更复杂的情况
 
-指定字符集，用来匹配指定位置的字符，[AB]表示AB之中的一个。[^AB]表示非AB之中的一个。
-
-后面可以接%或者_，表示前面的出现任意次或者一次
+可以使用正则表达式
